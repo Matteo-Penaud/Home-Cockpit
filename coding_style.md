@@ -1,5 +1,5 @@
 # Coding style
-## Typing :
+## Typing (variables only) :
 | Type      | Prefix  |
 |-----------|---------|
 | const     | cst_    |
@@ -20,3 +20,6 @@
 ```c
 #define CONST_IN_CAPS
 ```
+Make a common file for global imports and defines.
+
+Use `#ifndef` to segregate the WIN32 and linux platforms.
